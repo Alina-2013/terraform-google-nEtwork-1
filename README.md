@@ -5,7 +5,7 @@
 ```
 
 module "vpc" {
-    source = "./module"
+    source = "Alina-2013/nEtwork-1/google"
     vpc_name = "test"
     firewall_name = "http-allow"
     public-subnet1-name = "public-subnet1" 
